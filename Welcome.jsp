@@ -5,9 +5,9 @@
 <title>Welcome</title>
 <style>
 h2{
-    color: violet;
+    color: green;
     font-family:cursive;
-    font-size: 40px;
+    font-size: 50px;
 }
 </style>
 <body>
