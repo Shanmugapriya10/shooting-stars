@@ -98,50 +98,7 @@ text-shadow:5px 2px 4px brown;
 
 <p align="center">Welcome to Spacfurnz!</p>
 
-<div class="w3-content w3-display-container">
-<form action="form.asp" class="w3-container w3-card-8 w3-sand w3-text-green w3-hover-sand w3-margin">
-<h2 class="w3-center">Contact Us</h2>
- 
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
-    </div>
-</div>
 
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
-    </div>
-</div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
-    </div>
-</div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
-    <div class="w3-rest">
-      <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
-    </div>
-</div>
-
-<div class="w3-row w3-section">
-  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
-    <div class="w3-rest">
-      <textarea class="w3-input w3-border" name="message"  placeholder="Message"></textarea>
-    </div>
-</div>
-
-
-<button class="w3-btn-block w3-section w3-green w3-ripple w3-hover-brown w3-padding">Send</button>
-
-</form>
-</div>
 <footer class="w3-container  w3-center w3-opacity w3-black w3-xlarge w3-card-8" style="padding:10px">
   <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
   <i class="fa fa-instagram w3-hover-text-purple"></i>
