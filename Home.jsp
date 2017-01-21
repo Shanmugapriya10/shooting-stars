@@ -10,7 +10,7 @@
 <title>SPACFURNZ</title>
 <style>
 body {
-     background-image:url('https://tse2.mm.bing.net/th?id=OIP.M75931de4799a3654f72522282d78f204o0&pid=15.1&P=0&w=300&h=300');
+   background-image:url('http://images.all-free-download.com/images/graphicthumb/wood_texture_01_hd_pictures_170840.jpg');
     background-repeat:no-repeat;
     background-size:100% 100%;
     }
@@ -40,6 +40,14 @@ text-shadow:5px 2px 4px brown;
 background-color:green;
 }
 
+
+p{
+color:GREEN;
+font-family:jokerman;
+font-size:50px;
+text-shadow:5px 2px 4px brown;
+}
+
 h2{
 color:GREEN;
 font-family:jokerman;
@@ -48,12 +56,12 @@ text-shadow:5px 2px 4px brown;
 </style>
 </head>
 <body>
-<div class="w3-content w3-display-container  w3-card-8 w3-sand " >
 
+<div class="w3-content w3-display-container w3-card-8 " >
 <h1 align="center"><i>Spacfurnz</i></h1>
 
 <h5 align="right">-A Journey to the Furniture World</h5>
-<nav>
+<nav >
 <ul  class="w3-section w3-navbar w3-card-8 w3-green">
   <li><a class="active w3-padding-large" href="#Home">Home</a></li>
   <li><a  href="#Aboutus" class="w3-padding-large">About Us</a></li>
@@ -73,7 +81,7 @@ text-shadow:5px 2px 4px brown;
 </ul>
 </nav>
 
-<div  class="w3-content w3-display-container" style="padding:10px" >
+<div  class="w3-content w3-display-container w3-sand" style="padding:10px" >
   <img  class="mySlides w3-animate-left " src="http://images.all-free-download.com/images/graphicthumb/modern_living_room_boutique_picture_3_167582.jpg" style="width:100%;height:500px;">
    <img class="mySlides w3-animate-right" src="http://images.all-free-download.com/images/graphicthumb/blue_children39s_room_picture_167624.jpg" style="width:100%;height:500px; ">
   <img class="mySlides w3-animate-left" src="http://images.all-free-download.com/images/graphicthumb/the_red_tone_of_the_room_picture_167587.jpg" style="width:100%;height:500px; ">
@@ -87,6 +95,9 @@ text-shadow:5px 2px 4px brown;
 
 
 </div>
+
+<p align="center">Welcome to Spacfurnz!</p>
+
 <div class="w3-content w3-display-container">
 <form action="form.asp" class="w3-container w3-card-8 w3-sand w3-text-green w3-hover-sand w3-margin">
 <h2 class="w3-center">Contact Us</h2>
@@ -131,7 +142,7 @@ text-shadow:5px 2px 4px brown;
 
 </form>
 </div>
-<footer class="w3-container  w3-center w3-opacity w3-brown w3-xlarge w3-card-8" style="padding:10px">
+<footer class="w3-container  w3-center w3-opacity w3-black w3-xlarge w3-card-8" style="padding:10px">
   <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
   <i class="fa fa-instagram w3-hover-text-purple"></i>
   <i class="fa fa-snapchat w3-hover-text-yellow"></i>
@@ -177,4 +188,3 @@ function showDivs(n) {
 </script>
 </body>
 </html>
-
