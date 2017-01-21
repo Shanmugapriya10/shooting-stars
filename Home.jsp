@@ -10,75 +10,160 @@
 <title>SPACFURNZ</title>
 <style>
 body {
-     background-image:url('https://tse1.mm.bing.net/th?id=OIP.Ma9e58c13946220d5d8287607de77848ao0&pid=15.1&P=0&w=288&h=163');
+     background-image:url('https://tse2.mm.bing.net/th?id=OIP.M75931de4799a3654f72522282d78f204o0&pid=15.1&P=0&w=300&h=300');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
     }
+ 
+
 h1{
-font-size:60px;
+font-size:70px;
 color:GREEN;
 font-family:jokerman;
-text-shadow:5px 2px 4px RED;
+text-shadow:5px 2px 4px brown;
 padding:0px;
 }
 h5{
 font-size:20px;
-color:RED;
+color:brown;
 font-family:jokerman;
 text-shadow:5px 2px 4px GREEN;
 padding:0px;
 }
-a:hover,a:active{ 
-color:green;
+
+ul
+{
+font-family:jokerman;
+text-shadow:5px 2px 4px brown;
 }
 .active {
 background-color:green;
 }
 
-
+h2{
+color:GREEN;
+font-family:jokerman;
+text-shadow:5px 2px 4px brown;
+}
 </style>
 </head>
 <body>
+<div class="w3-content w3-display-container  w3-card-8 w3-sand " >
 
 <h1 align="center"><i>Spacfurnz</i></h1>
 
 <h5 align="right">-A Journey to the Furniture World</h5>
-
-<ul class="w3-navbar w3-card-8 w3-black">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a  href="#aboutus">About Us</a></li>
+<nav>
+<ul  class="w3-section w3-navbar w3-card-8 w3-green">
+  <li><a class="active w3-padding-large" href="#Home">Home</a></li>
+  <li><a  href="#Aboutus" class="w3-padding-large">About Us</a></li>
+  <li><a  href="#Contactus" class="w3-padding-large">Contact Us</a></li>
    <li class="w3-dropdown-hover ">
-   <a  href="#products">Products <i class="fa fa-caret-down"></i></a>
-   <div class="w3-dropdown-content w3-green w3-card-4">
-      <a href="#">Living Room Furniture</a>
-      <a href="#">Kids Room Furniture</a>
-      <a href="#">Bedroom Furniture</a>
-      <a href="#">Kitchen And Dining Furniture</a>
-      <a href="#">Pet Furniture</a>
+   <a  href="#Products" class="w3-padding-large">Products <i class="fa fa-caret-down"></i></a>
+   <div class="w3-dropdown-content w3-black w3-card-4">
+      <a href="#livingroomfurniture" >Living Room Furniture</a>
+      <a href="#kidsroomfurniture">Kids Room Furniture</a>
+      <a href="#bedroomfurniture">Bedroom Furniture</a>
+      <a href="#kitchenanddiningfurniture">Kitchen And Dining Furniture</a>
+      <a href="#petfurniture">Pet Furniture</a>
     </div>
    </li>
-  <li style="float:right"><a href="#signup">Sign Up</a></li>
-  <li style="float:right"><a href="#login">Login</a></li>
+  <li style="float:right"><a href="#Register" class="w3-padding-large">Register</a></li>
+  <li style="float:right"><a href="#Login" class="w3-padding-large">Login</a></li>
 </ul>
+</nav>
 
+<div  class="w3-content w3-display-container" style="padding:10px" >
+  <img  class="mySlides w3-animate-left " src="http://images.all-free-download.com/images/graphicthumb/modern_living_room_boutique_picture_3_167582.jpg" style="width:100%;height:500px;">
+   <img class="mySlides w3-animate-right" src="http://images.all-free-download.com/images/graphicthumb/blue_children39s_room_picture_167624.jpg" style="width:100%;height:500px; ">
+  <img class="mySlides w3-animate-left" src="http://images.all-free-download.com/images/graphicthumb/the_red_tone_of_the_room_picture_167587.jpg" style="width:100%;height:500px; ">
+  <img class="mySlides w3-animate-right" src="http://img.remastersys.com/nimg/e8/55/523955968b3336d7ca125c41b132-300x300-0/strong_style_color_b82220_kitchen_strong_wood_cabinets_strong_style_color_b82220_kitchen_furniture_strong_sets_cabinet_modern_styl.jpg" style="width:100%;height:500px; ">
+<img class="mySlides w3-animate-center" src="http://images.all-free-download.com/images/graphicthumb/fashion_living_room_interior_quality_picture_167573.jpg" style="width:100%;height:500px; ">
 
-<div  style="padding:10px" class="w3-content w3-display-container">
-  <img  class="mySlides" src="http://images.all-free-download.com/images/graphicthumb/fine_furniture_sofa_01_hd_pictures_167797.jpg" style="width:100%">
-  <img class="mySlides" src="http://images.all-free-download.com/images/graphicthumb/indoor_decoration_02_hd_picture_167812.jpg
-  " style="width:100% ">
-  <img class="mySlides" src="http://images.all-free-download.com/images/graphicthumb/home_fashion_corner_of_the_picture_167692.jpg" style="width:100% ">
-  <img class="mySlides" src="http://images.all-free-download.com/images/graphicthumb/minimalist_furniture_fine_picture_167569.jpg" style="width:100% ">
-
-  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
-  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+ <a class="w3-btn-floating w3-display-left w3-hover-green" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right w3-hover-green" onclick="plusDivs(1)">&#10095;</a>
+  
 </div>
 
+
+</div>
+<div class="w3-content w3-display-container">
+<form action="form.asp" class="w3-container w3-card-8 w3-sand w3-text-green w3-hover-sand w3-margin">
+<h2 class="w3-center">Contact Us</h2>
+ 
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+    <div class="w3-rest">
+      <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+    </div>
+</div>
+
+<div class="w3-row w3-section">
+  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+    <div class="w3-rest">
+      <textarea class="w3-input w3-border" name="message"  placeholder="Message"></textarea>
+    </div>
+</div>
+
+
+<button class="w3-btn-block w3-section w3-green w3-ripple w3-hover-brown w3-padding">Send</button>
+
+</form>
+</div>
+<footer class="w3-container  w3-center w3-opacity w3-brown w3-xlarge w3-card-8" style="padding:10px">
+  <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+  <i class="fa fa-instagram w3-hover-text-purple"></i>
+  <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+  <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+  <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+  <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  
+  </footer>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 5000); // Change image every 4 seconds
+}
+</script>
 <script>
 var slideIndex = 1;
 showDivs(slideIndex);
-
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
-
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
@@ -90,8 +175,6 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 </script>
-
-
-
 </body>
 </html>
+
