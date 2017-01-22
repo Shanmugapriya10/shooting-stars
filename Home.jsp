@@ -76,8 +76,8 @@ text-shadow:5px 2px 4px brown;
       <a href="#petfurniture">Pet Furniture</a>
     </div>
    </li>
-  <li style="float:right"><a href="#Register" class="w3-padding-large">Register</a></li>
-  <li style="float:right"><a href="#Login" class="w3-padding-large">Login</a></li>
+  <li style="float:right"><a href="#Register.jsp" class="w3-padding-large">Register</a></li>
+  <li style="float:right"><a href="#Login.jsp" class="w3-padding-large">Login</a></li>
 </ul>
 
 
