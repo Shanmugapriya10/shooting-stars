@@ -61,7 +61,7 @@ text-shadow:5px 2px 4px brown;
 <h1 align="center"><i>Spacfurnz</i></h1>
 
 <h5 align="right">-A Journey to the Furniture World</h5>
-<nav >
+
 <ul  class="w3-section w3-navbar w3-card-8 w3-green">
   <li><a class="active w3-padding-large" href="#Home">Home</a></li>
   <li><a  href="#Aboutus" class="w3-padding-large">About Us</a></li>
@@ -79,7 +79,7 @@ text-shadow:5px 2px 4px brown;
   <li style="float:right"><a href="#Register" class="w3-padding-large">Register</a></li>
   <li style="float:right"><a href="#Login" class="w3-padding-large">Login</a></li>
 </ul>
-</nav>
+
 
 <div  class="w3-content w3-display-container w3-sand" style="padding:10px" >
   <img  class="mySlides w3-animate-left " src="http://images.all-free-download.com/images/graphicthumb/modern_living_room_boutique_picture_3_167582.jpg" style="width:100%;height:500px;">
