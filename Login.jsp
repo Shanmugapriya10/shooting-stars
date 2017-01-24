@@ -13,10 +13,10 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<title>Login</title>
+<title>Funtoyz-Login</title>
 <style>
 body {
-   background-image:url('http://images.all-free-download.com/images/graphicthumb/wood_texture_01_hd_pictures_170840.jpg');
+   background-image:url('');
     background-repeat:no-repeat;
     background-size:100% 100%;
     
@@ -193,7 +193,7 @@ input[type=submit] {
 </head>
 <body>
 <div class="w3-content w3-display-container w3-card-8 " >
-<h1 align="center"><i>Spacfurnz</i></h1>
+<h1 align="center"><i>Funtoyz</i></h1>
 
 <h5 align="right">-A Journey to the Furniture World</h5>
 <nav >
@@ -204,11 +204,11 @@ input[type=submit] {
    <li class="w3-dropdown-hover ">
    <a  href="#Products" class="w3-padding-large">Products <i class="fa fa-caret-down"></i></a>
    <div class="w3-dropdown-content w3-black w3-card-4">
-      <a href="#livingroomfurniture" >Living Room Furniture</a>
-      <a href="#kidsroomfurniture">Kids Room Furniture</a>
-      <a href="#bedroomfurniture">Bedroom Furniture</a>
-      <a href="#kitchenanddiningfurniture">Kitchen And Dining Furniture</a>
-      <a href="#petfurniture">Pet Furniture</a>
+      <a href="#" ></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
     </div>
    </li>
   <li style="float:right"><a href="#Register" class="w3-padding-large">Register</a></li>
@@ -221,9 +221,9 @@ input[type=submit] {
       <h5 align="center">Login Form</h5>
       <form method="post" action="index.html">
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-         <div class="w3-rest"><input type="text" name="login" value="" placeholder="Username or Email"></p></div>
+         <div class="w3-rest"><input type="text" name="login" value="" placeholder="Username or Email"></div></p>
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-lock"></i></div>
-         <div class="w3-rest"><input type="password" name="password" value="" placeholder="Password"></p></div>
+         <div class="w3-rest"><input type="password" name="password" value="" placeholder="Password"></div></p>
         <p class="remember_me" style="font-color:green;">
           <label >
             <input type="checkbox" name="remember_me" id="remember_me">
