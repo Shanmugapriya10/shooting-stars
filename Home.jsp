@@ -57,7 +57,7 @@ padding:0px;
     <p align="right">-A Journey to the Toy World</p>
  </div>
 
-<nav class="navbar navbar-default panel panel-success"  >
+<nav class="navbar navbar-inverse " style="font-family:Jokerman;" >
 
   <div class="container-fluid w3-card-8 w3-hover-green " >
     <div class="collapse navbar-collapse" id="myNavbar">
@@ -68,10 +68,12 @@ padding:0px;
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
+          <li><a href="#">Action Figure Toys</a></li>
+          <li><a href="#">Electronic Toys</a></li>
+          <li><a href="#">Wooden toys</a></li>
+          <li><a href="#">Construction Toys</a></li>
+          <li><a href="#">Board Games</a></li>
+          </ul>
       </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -142,26 +144,28 @@ padding:0px;
   </div>
  <br/>
  <br/>
- <p ALIGN="center" style="font-size:40px;">EXCITING OFFERS FOR EVERY DAY.... EXCEPT SUNDAY!</p> 
+ 
+ <marquee>
+ <p ALIGN="center" style="font-size:40px;">EXCITING OFFERS FOR EVERY DAY.... EXCEPT SUNDAY!</p> </marquee>
 <div class="container ">    
   <div class="row">
     <div class="col-sm-4 w3-card-8 w3-hover-orange">
       <div class="panel panel-primary">
-        <div class="panel-heading">MONDAY OFFER!</div>
+        <div class="panel-heading" style="font-family:Jokerman;">MONDAY OFFER!</div>
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4  w3-card-8 w3-hover-orange"> 
       <div class="panel panel-danger">
-        <div class="panel-heading">TUESDAY OFFER!</div>
+        <div class="panel-heading" style="font-family:Jokerman;">TUESDAY OFFER!</div>
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-orange"> 
       <div class="panel panel-success">
-        <div class="panel-heading">WEDNESDAY OFFER!</div>
+        <div class="panel-heading" style="font-family:Jokerman;">WEDNESDAY OFFER!</div>
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
       </div>
@@ -173,21 +177,21 @@ padding:0px;
   <div class="row">
     <div class="col-sm-4 w3-card-8 w3-hover-green">
       <div class="panel panel-warning">
-        <div class="panel-heading">THURSDAY OFFER!</div>
+        <div class="panel-heading" style="font-family:Jokerman;">THURSDAY OFFER!</div>
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-green"> 
       <div class="panel panel-info">
-        <div class="panel-heading">FRIDAY OFFER!</div>
+        <div class="panel-heading" style="font-family:Jokerman;">FRIDAY OFFER!</div>
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-green"> 
       <div class="panel panel-primary">
-        <div class="panel-heading">SATURDAY OFFER!</div>
+        <div class="panel-heading" style="font-family:Jokerman;">SATURDAY OFFER!</div>
         <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
         <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
       </div>
@@ -197,7 +201,7 @@ padding:0px;
 <div class="well w3-hover-sand" >
 <footer class="container-fluid text-center " >
   <p>For Further Details</p> 
-  <form class="form-inline ">Quick sign-up:
+  <form class="form-inline " style="font-family:Jokerman;">Quick sign-up:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
     <button type="button" class="btn btn-success">Send</button>
      
