@@ -18,14 +18,7 @@
     
     }
  
-  h1{
-font-size:80px;
-color:GREEN;
-font-family:jokerman;
-text-shadow:5px 2px 4px orange;
-padding:0px;
-}
-p{
+  p{
 font-size:20px;
 color:orange;
 font-family:jokerman;
@@ -45,7 +38,6 @@ padding:0px;
   }
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color:pale-orange;
       padding: 25px;
     }
   </style>
@@ -53,13 +45,23 @@ padding:0px;
 <body>
 
   <div class="container text-center">
-    <h1><i>Funtoyz</i></h1>      
-    <p align="right">-A Journey to the Toy World</p>
+    <h1 style="font-size:80px;
+color:GREEN;
+font-family:jokerman;
+text-shadow:5px 2px 4px orange;
+padding:0px;"><i>Funtoyz</i></h1>      
+    <p align="right">- A Journey to the Toy World</p>
  </div>
 
 <nav class="navbar navbar-inverse " style="font-family:Jokerman;" >
-
-  <div class="container-fluid w3-card-8 w3-hover-green " >
+<div class="container-fluid w3-card-8  " >
+ <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav" >
          <li class="active w3-orange"><a href="#">Home</a></li>
@@ -72,6 +74,7 @@ padding:0px;
           <li><a href="#">Electronic Toys</a></li>
           <li><a href="#">Wooden toys</a></li>
           <li><a href="#">Construction Toys</a></li>
+          <li><a href="#">Musical toys</a></li>
           <li><a href="#">Board Games</a></li>
           </ul>
       </li>
@@ -83,6 +86,8 @@ padding:0px;
     </div>
   </div>
 </nav>
+
+
 <div class="container ">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -106,10 +111,10 @@ padding:0px;
       </div>
 
       <div class="item">
-        <img src="img_chania2.jpg" alt="Chania" width="100%">
+        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Toy-Fair-2011-image-89-600x450.jpg" alt="_blank" width="100%">
         <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          <h3>Action Figure Toys</h3>
+          <p></p>
         </div>
       </div>
     
@@ -145,6 +150,11 @@ padding:0px;
  <br/>
  <br/>
  
+ <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\deal.jpg" width="100%" >
+ <br/>
+ <br/>
+ 
+ 
  <marquee>
  <p ALIGN="center" style="font-size:40px;">EXCITING OFFERS FOR EVERY DAY.... EXCEPT SUNDAY!</p> </marquee>
 <div class="container ">    
@@ -152,22 +162,22 @@ padding:0px;
     <div class="col-sm-4 w3-card-8 w3-hover-orange">
       <div class="panel panel-primary">
         <div class="panel-heading" style="font-family:Jokerman;">MONDAY OFFER!</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\iron man.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
+        <div class="panel-footer w3-hover-sand">Buy any action figure toy and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4  w3-card-8 w3-hover-orange"> 
       <div class="panel panel-danger">
         <div class="panel-heading" style="font-family:Jokerman;">TUESDAY OFFER!</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Cy-Talking-Tom-Cat-Touch-SDL135429999-1-6029c.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
+        <div class="panel-footer w3-hover-sand">Buy any electronic toy and get a gift card </div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-orange"> 
       <div class="panel panel-success">
         <div class="panel-heading" style="font-family:Jokerman;">WEDNESDAY OFFER!</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Montez-Magnetic-Jigsaw-Puzzle-Two-SDL014952339-1-c69cd.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
+        <div class="panel-footer w3-hover-sand">Buy any wooden toy and get a gift card</div>
       </div>
     </div>
   </div>
@@ -178,22 +188,22 @@ padding:0px;
     <div class="col-sm-4 w3-card-8 w3-hover-green">
       <div class="panel panel-warning">
         <div class="panel-heading" style="font-family:Jokerman;">THURSDAY OFFER!</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Peacock-Senior-Architect-2133-Construction-SDL432519311-1-d2c81.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:300px;" alt="Image"></div>
+        <div class="panel-footer w3-hover-sand">Buy any construction toy set and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-green"> 
       <div class="panel panel-info">
         <div class="panel-heading" style="font-family:Jokerman;">FRIDAY OFFER!</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Prasid-25-Key-Music-Learning-SDL547313554-1-6bee0.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:325px;" alt="Image"></div>
+        <div class="panel-footer w3-hover-sand">Buy any musical toy and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-green"> 
       <div class="panel panel-primary">
         <div class="panel-heading" style="font-family:Jokerman;">SATURDAY OFFER!</div>
-        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
-        <div class="panel-footer">Buy 50 mobiles and get a gift card</div>
+        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Monopoly-Electronic-Banking-SDL045553286-1-b23bc.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:300px;" alt="Image"></div>
+        <div class="panel-footer w3-hover-sand">Buy any board games set and get a gift card</div>
       </div>
     </div>
   </div>
