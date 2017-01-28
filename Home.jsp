@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://http://www.sharperimage.vu/product-category/toys/">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
  body {
-   background-image:url('');
+   background-image:url('https://tse4.mm.bing.net/th?id=OIP.M46abb3fa6fc74ad0ee6ac80b765ebdcfH0&pid=15.1&P=0&w=272&h=171');
     background-repeat:no-repeat;
     background-size:100% 100%;
     
@@ -24,6 +25,7 @@ color:orange;
 font-family:jokerman;
 text-shadow:5px 2px 4px GREEN;
 padding:0px;
+}
     /* Remove the navbar's default rounded borders and increase the bottom margin */ 
     .navbar {
       margin-bottom: 50px;
@@ -53,7 +55,7 @@ padding:0px;"><i>Funtoyz</i></h1>
     <p align="right">- A Journey to the Toy World</p>
  </div>
 
-<nav class="navbar navbar-inverse " style="font-family:Jokerman;" >
+<nav class="navbar navbar-default w3-green w3-hover-sand" style="font-family:Jokerman;" >
 <div class="container-fluid w3-card-8  " >
  <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -64,12 +66,16 @@ padding:0px;"><i>Funtoyz</i></h1>
       </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav" >
-         <li class="active w3-orange"><a href="#">Home</a></li>
-        <li><a href="#">Contact</a></li>
+      <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+      <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      </li>
+         <li class="active w3-hover-orange"><a href="#Home">Home</a></li>
+         <li><a href="#About Us">About Us</a></li>
+        <li><a href="#Contact us">Contact Us</a></li>
        <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
         <span class="caret"></span></a>
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu w3-green w3-hover-black">
           <li><a href="#">Action Figure Toys</a></li>
           <li><a href="#">Electronic Toys</a></li>
           <li><a href="#">Wooden toys</a></li>
@@ -80,13 +86,21 @@ padding:0px;"><i>Funtoyz</i></h1>
       </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-       <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       <li><a href="#Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+       <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
+<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <ul class="w3-navbar w3-left-align w3-black">
+    <li><a class="w3-padding-large" href="#About Us">About Us</a></li>
+    <li><a class="w3-padding-large" href="#Contact us">Contact us</a></li>
+    <li><a class="w3-padding-large" href="#Register">Sign Up</a></li>
+    <li><a class="w3-padding-large" href="#Login">Login</a></li>
+  </ul>
+</div>
 
 <div class="container ">
   <br>
@@ -103,34 +117,34 @@ padding:0px;"><i>Funtoyz</i></h1>
     <div class="carousel-inner w3-hover-sand " role="listbox">
 
       <div class="item active">
-        <img src="img_chania.jpg" alt="Chania" width="100%">
+        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\lego-angry-birds-movie-characters-home-banner.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          <h3 style="color:orange">Hi...Everyone..</h3>
+          <p>Welcome To The Toy World....</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Toy-Fair-2011-image-89-600x450.jpg" alt="_blank" width="100%">
+        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\star_wars_banner_1176x524.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
-          <h3>Action Figure Toys</h3>
+          <h3></h3>
           <p></p>
         </div>
       </div>
     
       <div class="item">
-        <img src="img_flower.jpg" alt="Flower" width="100%">
+        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\maxresdefault.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3></h3>
+          <p>Come On...Let's play on the Glider...</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="img_flower2.jpg" alt="Flower" width="100%">
+        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\toys-slider.jpg" alt="_blank" style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
-          <h3>Flowers</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <h3 style="color:green">Why Are You Waiting?</h3>
+          <p>Come  And Collect Me....Fast..</p>
         </div>
       </div>
   
@@ -138,25 +152,28 @@ padding:0px;"><i>Funtoyz</i></h1>
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-left " aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+      <span class="sr-only ">Next</span>
     </a>
   </div>
   </div>
  <br/>
  <br/>
  
- <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\deal.jpg" width="100%" >
+    
+ <img class="w3-card-8" src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\deal.jpg" width="100%" >
  <br/>
  <br/>
- 
+ <br/>
  
  <marquee>
  <p ALIGN="center" style="font-size:40px;">EXCITING OFFERS FOR EVERY DAY.... EXCEPT SUNDAY!</p> </marquee>
+<br/>
+<br/>
 <div class="container ">    
   <div class="row">
     <div class="col-sm-4 w3-card-8 w3-hover-orange">
@@ -208,7 +225,23 @@ padding:0px;"><i>Funtoyz</i></h1>
     </div>
   </div>
 </div><br><br>
-<div class="well w3-hover-sand" >
+
+<div class="well w3-hover-grey" id="About Us" >
+ <div class="container w3-card-8 w3-white w3-hover-sand">
+ <h1 align="center"  style="
+color:GREEN;
+font-family:jokerman;
+text-shadow:5px 2px 4px orange;
+padding:0px;">About Us</h1>
+<hr/>
+  <h4 align="center">Toys are fascinating objects made from different materials and used by different age groups ranging from toddlers to young adults for the purpose of entertainment and play.
+At Furntoyz, we have decided to have the best product for every age.</h4>
+ </div>   
+    <br/>
+    <br/>
+    
+    
+
 <footer class="container-fluid text-center " >
   <p>For Further Details</p> 
   <form class="form-inline " style="font-family:Jokerman;">Quick sign-up:
@@ -219,5 +252,18 @@ padding:0px;"><i>Funtoyz</i></h1>
 </footer>
 </div>
 
+<script>
+
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+
+</script>
 </body>
 </html>
