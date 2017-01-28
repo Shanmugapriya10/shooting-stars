@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://http://www.sharperimage.vu/product-category/toys/">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
@@ -27,12 +26,12 @@ text-shadow:5px 2px 4px GREEN;
 padding:0px;
 }
     /* Remove the navbar's default rounded borders and increase the bottom margin */ 
-    .navbar {
+    
+     .navbar {
       margin-bottom: 50px;
       border-radius: 0;
     }
-    
-    
+   
    .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 70%;
@@ -54,6 +53,7 @@ text-shadow:5px 2px 4px orange;
 padding:0px;"><i>Funtoyz</i></h1>      
     <p align="right">- A Journey to the Toy World</p>
  </div>
+
 
 <nav class="navbar navbar-default w3-green w3-hover-sand" style="font-family:Jokerman;" >
 <div class="container-fluid w3-card-8  " >
@@ -101,6 +101,7 @@ padding:0px;"><i>Funtoyz</i></h1>
     <li><a class="w3-padding-large" href="#Login">Login</a></li>
   </ul>
 </div>
+   
 
 <div class="container ">
   <br>
@@ -226,7 +227,7 @@ padding:0px;"><i>Funtoyz</i></h1>
   </div>
 </div><br><br>
 
-<div class="well w3-hover-grey" id="About Us" >
+<div class="well w3-sand w3-hover-grey" id="About Us" >
  <div class="container w3-card-8 w3-white w3-hover-sand">
  <h1 align="center"  style="
 color:GREEN;
@@ -234,8 +235,8 @@ font-family:jokerman;
 text-shadow:5px 2px 4px orange;
 padding:0px;">About Us</h1>
 <hr/>
-  <h4 align="center">Toys are fascinating objects made from different materials and used by different age groups ranging from toddlers to young adults for the purpose of entertainment and play.
-At Furntoyz, we have decided to have the best product for every age.</h4>
+  <h4 align="center" style="font-family:sans-seriff"><i>Toys are fascinating objects made from different materials and used by different age groups ranging from toddlers to young adults for the purpose of entertainment and play.
+At Funtoyz, we have decided to have the best product for every age.</i></h4>
  </div>   
     <br/>
     <br/>
@@ -262,7 +263,6 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
 
 </script>
 </body>

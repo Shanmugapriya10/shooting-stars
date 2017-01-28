@@ -8,8 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
 body {
    background-image:url('https://tse4.mm.bing.net/th?id=OIP.M46abb3fa6fc74ad0ee6ac80b765ebdcfH0&pid=15.1&P=0&w=272&h=171');
@@ -78,37 +79,39 @@ padding:0px;">- A Journey to the Toy World</p>
   </div>
 </nav>
 
-<div align="center" class="w3-container w3-card-4 w3-grey">
-    <h4 id="Contact Us"><b>Contact Us</b></h4>
-    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
-      <div class="w3-third w3-dark-grey">
+
+
+<div  class="container w3-card-8 w3-sand">
+    <h2 align="center" id="Contact Us" style="font-family:jokerman"><b>Contact Us</b></h2>
+    <div class="w3-row-padding w3-center w3-padding-24 " style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey w3-card-8">
         <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
         <p>mail@email.com</p>
       </div>
-      <div class="w3-third w3-teal">
+      <div class="w3-third w3-teal w3-card-8">
         <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
         <p>Chennai,INDIA</p>
       </div>
-      <div class="w3-third w3-dark-grey">
+      <div class="w3-third w3-dark-grey w3-card-8">
         <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
-        <p>9840632068</p>
+        <p>+919840632068</p>
       </div>
     </div>
     <hr class="w3-opacity">
     <form action="form.asp" target="_blank">
-      <div class="w3-group">
+      <div >
         <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" >
+        <input class="w3-input w3-border w3-card-4" type="text" name="Name" >
       </div>
       <div class="w3-group">
         <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" >
+        <input class="w3-input w3-border w3-card-4" type="text" name="Email">
       </div>
       <div class="w3-group">
         <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" >
+        <textarea class="w3-input w3-border w3-card-4" type="text" name="Message" ></textarea>
       </div>
-      <button type="submit" class="w3-btn w3-padding-large w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+      <button type="submit" class="w3-btn w3-padding-large w3-margin-bottom w3-card-8"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
     </form>
   </div>
 
