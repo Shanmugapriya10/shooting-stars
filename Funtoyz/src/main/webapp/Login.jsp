@@ -248,9 +248,9 @@ padding:0px;">- A Journey to the Toy World</p>
       <h5 align="center">Login Form</h5>
       <form method="post" action="index.html">
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
-         <div class="w3-rest"><input type="text" name="login" value="" placeholder="Username or Email"></div></p>
+         <div class="w3-rest"><input type="text" name="login" value="" placeholder="Username or Email"></div>
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-lock"></i></div>
-         <div class="w3-rest"><input type="password" name="password" value="" placeholder="Password"></div></p>
+         <div class="w3-rest"><input type="password" name="password" value="" placeholder="Password"></div>
         <p class="remember_me" style="font-color:green;">
           <label >
             <input type="checkbox" name="remember_me" id="remember_me">

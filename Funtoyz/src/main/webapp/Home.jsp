@@ -69,7 +69,7 @@ padding:0px;"><i>Funtoyz</i></h1>
       <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
       <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       </li>
-         <li class="active w3-hover-orange"><a href="#Home">Home</a></li>
+         <li class="active w3-hover-orange"><a href="#">Home</a></li>
          <li><a href="#About Us">About Us</a></li>
         <li><a href="#Contact us">Contact Us</a></li>
        <li class="dropdown">
@@ -86,8 +86,8 @@ padding:0px;"><i>Funtoyz</i></h1>
       </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li><a href="#Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-       <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       <li><a href="rg"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+       <li><a href="ls"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
