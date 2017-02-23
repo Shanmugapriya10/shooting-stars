@@ -59,7 +59,7 @@ padding:0px;"><i>Funtoyz</i></h1>
 <div class="container-fluid w3-card-8  " >
  <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
+        <span class="icon-bar">About Us</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
@@ -92,17 +92,7 @@ padding:0px;"><i>Funtoyz</i></h1>
     </div>
   </div>
 </nav>
-
-<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <ul class="w3-navbar w3-left-align w3-black">
-    <li><a class="w3-padding-large" href="#About Us">About Us</a></li>
-    <li><a class="w3-padding-large" href="#Contact us">Contact us</a></li>
-    <li><a class="w3-padding-large" href="#Register">Sign Up</a></li>
-    <li><a class="w3-padding-large" href="#Login">Login</a></li>
-  </ul>
-</div>
    
-
 <div class="container ">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
