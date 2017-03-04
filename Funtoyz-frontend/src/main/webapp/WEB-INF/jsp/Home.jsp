@@ -59,7 +59,7 @@ padding:0px;"><i>Funtoyz</i></h1>
 <div class="container-fluid w3-card-8  " >
  <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar">About Us</span>
+        <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>

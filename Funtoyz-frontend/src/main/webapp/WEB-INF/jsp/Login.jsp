@@ -225,28 +225,21 @@ padding:0px;">- A Journey to the Toy World</p>
       </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li><a href="#Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+       <li><a href="#Register"><span class="glyphicon glyphicon-user"></span> Register</a></li>
        <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <ul class="w3-navbar w3-left-align w3-black">
-    <li><a class="w3-padding-large" href="#About Us">About Us</a></li>
-    <li><a class="w3-padding-large" href="#Contact us">Contact us</a></li>
-    <li><a class="w3-padding-large" href="#Register">Sign Up</a></li>
-    <li><a class="w3-padding-large" href="#Login">Login</a></li>
-  </ul>
-</div>
+
    
 
 
   <section class="container">
     <div class="login  w3-hover-sand " >
       <h5 align="center">Login Form</h5>
-      <form method="post" action="index.html">
+      <form method="post" action="home.html">
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
          <div class="w3-rest"><input type="text" name="login" value="" placeholder="Username or Email"></div>
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-lock"></i></div>
