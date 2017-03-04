@@ -15,23 +15,23 @@ import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.dream.Funtoyz_backend.Model.Cart;
-import com.niit.BackEnd.Model.CartItem;
-import com.niit.BackEnd.Model.InUsers;
-import com.niit.BackEnd.Model.Product;
-import com.niit.BackEnd.Model.UserOrder;
-import com.niit.BackEnd.Service.CartItemService;
-import com.niit.BackEnd.Service.CartItemServiceImpl;
-import com.niit.BackEnd.Service.CartService;
-import com.niit.BackEnd.Service.CartServiceImpl;
-import com.niit.BackEnd.Service.ProductService;
-import com.niit.BackEnd.Service.ProductServiceImpl;
-import com.niit.BackEnd.Service.UserOrderService;
-import com.niit.BackEnd.Service.UserOrderServiceImpl;
-import com.niit.BackEnd.Service.UserService;
-import com.niit.BackEnd.Service.UserServiceImpl;
+import com.dream.Funtoyz_backend.Model.CartItem;
+import com.dream.Funtoyz_backend.Model.InUsers;
+import com.dream.Funtoyz_backend.Model.Product;
+import com.dream.Funtoyz_backend.Model.UserOrder;
+import com.dream.Funtoyz_backend.Service.CartItemService;
+import com.dream.Funtoyz_backend.Service.CartItemServiceImpl;
+import com.dream.Funtoyz_backend.Service.CartService;
+import com.dream.Funtoyz_backend.Service.CartServiceImpl;
+import com.dream.Funtoyz_backend.Service.ProductService;
+import com.dream.Funtoyz_backend.Service.ProductServiceImpl;
+import com.dream.Funtoyz_backend.Service.UserOrderService;
+import com.dream.Funtoyz_backend.Service.UserOrderServiceImpl;
+import com.dream.Funtoyz_backend.Service.UserService;
+import com.dream.Funtoyz_backend.Service.UserServiceImpl;
 
 @Configuration
-@ComponentScan("com.niit.BackEnd")
+@ComponentScan("com.dream.Funtoyz_backend")
 @EnableTransactionManagement
 public class ApplicationContextConfig {
 
