@@ -13,7 +13,7 @@ import com.dream.Funtoyz_backend.Model.Customer;
 
 @Repository
 @Transactional
-public   class CustomerDAOImpl implements CustomerDAO {
+public class CustomerDAOImpl implements CustomerDAO {
 
 	@Autowired
 	
@@ -22,7 +22,7 @@ public   class CustomerDAOImpl implements CustomerDAO {
 	Session s;
 	Transaction t;
 	
-	public boolean addUser(Customer c) {
+	public boolean addCustomer(Customer c) {
 
 		try{
 			s = sf.openSession();
@@ -44,12 +44,12 @@ public   class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public boolean delUser(int uid) {
+	public boolean delCustomer(int cid) {
 		Customer c;
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
-			c = (Customer)s.load(Customer.class, uid);
+			c = (Customer)s.load(Customer.class, cid);
 			s.delete(c);
 			t.commit();
 			return true;
@@ -61,14 +61,14 @@ public   class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	public boolean updUser(Customer c) {
-		Customer u1;
+		Customer c1;
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
-			u1 = (Customer)s.load(Customer.class, c.getCid());
-			u1.setCname(c.getCname());
-			u1.setCpass(c.getCpass());
-			s.saveOrUpdate(u1);
+			c1 = (Customer)s.load(Customer.class, c.getCid());
+			c1.setCname(c.getCname());
+			c1.setCpass(c.getCpass());
+			s.saveOrUpdate(c1);
 			t.commit();
 			return true;
 		}
@@ -78,14 +78,14 @@ public   class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public Customer getUserById(int uid) {
-		Customer u;
+	public Customer getUserById(int cid) {
+		Customer c;
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
-			u = (Customer)s.load(Customer.class, uid);
+			c = (Customer)s.load(Customer.class, cid);
 			t.commit();
-			return u;
+			return c;
 		}
 		catch(Exception e){
 			System.out.println(e);
@@ -110,19 +110,13 @@ public   class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@Override
-	public boolean createCustomer(Customer c) {
+	public boolean delCustomer(String name) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean deleteCustomer(String name) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean updateCustomer(Customer c) {
+	public boolean updCustomer(Customer c) {
 		// TODO Auto-generated method stub
 		return false;
 	}
@@ -139,4 +133,5 @@ public   class CustomerDAOImpl implements CustomerDAO {
 		return null;
 	}
 
+	
 }
