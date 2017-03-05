@@ -16,7 +16,6 @@ import com.dream.Funtoyz_backend.Model.Customer;
 public class CustomerDAOImpl implements CustomerDAO {
 
 	@Autowired
-	
 	SessionFactory sf;
 	
 	Session s;
@@ -28,7 +27,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 			s = sf.openSession();
 			t = s.beginTransaction();
 			c.setEnabled(true);
-			c.setCname("ROLE_USER");
+			c.setRole("ROLE_USER");
 			
 			
 			
@@ -110,19 +109,13 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@Override
-	public boolean delCustomer(String name) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
 	public boolean updCustomer(Customer c) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public Customer getCustomerByName(String name) {
+	public Customer getCustomerByName(int cid) {
 		// TODO Auto-generated method stub
 		return null;
 	}
@@ -132,6 +125,10 @@ public class CustomerDAOImpl implements CustomerDAO {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	
+
+	
 
 	
 }

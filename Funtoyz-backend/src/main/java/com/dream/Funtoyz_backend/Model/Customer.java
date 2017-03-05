@@ -14,6 +14,8 @@ public class Customer {
 	@Column
 	private String cpass;
 	private String cid;
+	private String role;
+	private boolean enabled;
 	public String getCname()   {
 		return cname;
 	}
@@ -33,8 +35,17 @@ public class Customer {
     	this.cid=cid;
     }
 	
-	public void setEnabled(boolean b) {
-		// TODO Auto-generated method stub
+    public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
+	public boolean isEnabled() {
+		return enabled;
+	}
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
 		
 	}
-}

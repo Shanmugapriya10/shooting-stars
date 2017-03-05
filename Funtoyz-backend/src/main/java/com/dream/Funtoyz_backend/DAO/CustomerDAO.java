@@ -6,8 +6,8 @@ import com.dream.Funtoyz_backend.Model.Customer;
 
 public interface CustomerDAO {
      boolean addCustomer(Customer c);
-     boolean delCustomer(String name);
+     boolean delCustomer(int cid);
      boolean updCustomer(Customer c);
-     Customer getCustomerByName(String name);
+     Customer getCustomerByName(int cid);
      List<Customer> getAllCustomers();
 }
