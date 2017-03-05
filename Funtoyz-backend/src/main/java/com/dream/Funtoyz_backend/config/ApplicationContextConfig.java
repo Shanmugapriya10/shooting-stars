@@ -15,9 +15,10 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.dream.Funtoyz_backend.DAO.CustomerDAO;
-import com.dream.Funtoyz_backend.DAO.CustomerDAOImpl;
+
 import com.dream.Funtoyz_backend.Model.Customer;
+import com.dream.Funtoyz_backend.Service.CustomerService;
+import com.dream.Funtoyz_backend.Service.CustomerServiceImpl;
 
 
 @Configuration
@@ -29,10 +30,10 @@ public class ApplicationContextConfig {
 	public DataSource getDataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("org.h2.Driver");
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/sa");
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/sha");
 
-		dataSource.setUsername("sa");
-		dataSource.setPassword("");
+		dataSource.setUsername("shanmuga");
+		dataSource.setPassword("priya");
 		return dataSource;
 	}
     
@@ -63,11 +64,12 @@ public class ApplicationContextConfig {
 	}
 	
 	@Autowired
-	@Bean(name="DAO")
-	public CustomerDAO getUserService(){
-		return new CustomerDAOImpl();
+	@Bean(name="customerService")
+	public CustomerService getCustomerService(){
+		return new CustomerServiceImpl();
 	}
+	
+	
 
 	
 	}
-

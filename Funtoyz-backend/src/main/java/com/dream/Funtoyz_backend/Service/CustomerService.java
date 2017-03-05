@@ -12,6 +12,3 @@ public interface CustomerService {
 	Customer getCustomerById(int cid); 
 	List<Customer> getAllCustomers();
 }
-
-
-

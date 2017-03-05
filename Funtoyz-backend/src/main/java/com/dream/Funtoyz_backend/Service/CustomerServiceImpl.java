@@ -31,15 +31,10 @@ public class CustomerServiceImpl implements CustomerService {
 		return cd.getCustomerById(cid);
 	}
 
-	public List<Customer> getAllCustomer() {
+	public List<Customer> getAllCustomers() {
 		return cd.getAllCustomers();
 	}
 
-	@Override
-	public List<Customer> getAllCustomers() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	
 	
 }

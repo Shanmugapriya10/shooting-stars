@@ -59,7 +59,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public boolean updUser(Customer c) {
+	public boolean updCustomer(Customer c) {
 		Customer c1;
 		try{
 			s = sf.openSession();
@@ -77,7 +77,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public Customer getUserById(int cid) {
+	public Customer getCustomerById(int cid) {
 		Customer c;
 		try{
 			s = sf.openSession();
@@ -93,7 +93,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<Customer> getAllUsers() {
+	public List<Customer> getAllCustomers() {
 		List<Customer> l;
 		try{
 			s = sf.openSession();
@@ -107,28 +107,6 @@ public class CustomerDAOImpl implements CustomerDAO {
 			return null;
 		}
 	}
-
-	@Override
-	public boolean updCustomer(Customer c) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public Customer getCustomerByName(int cid) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Customer> getAllCustomers() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	
-
-	
 
 	
 }

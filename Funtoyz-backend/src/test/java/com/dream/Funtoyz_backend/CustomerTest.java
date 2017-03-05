@@ -7,6 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.dream.Funtoyz_backend.Model.Customer;
 import com.dream.Funtoyz_backend.Service.CustomerService;
 
+
 public class CustomerTest {
 
 	public static void main(String[] args) {
@@ -16,12 +17,12 @@ public class CustomerTest {
 		context.scan("com.dream.Funtoyz_backend");
 		context.refresh();
 		
-		CustomerService cs = (CustomerService) context.getBean("CustomerService");
+		CustomerService cs = (CustomerService) context.getBean("customerService");
 		
 		Customer c = new Customer();
 		c.setCname("Arut");
 		c.setCpass("123456");
-		System.out.println("User Viewd Successfully");
+		System.out.println("User Viewed Successfully");
 		if(cs.addCustomer(c)){
 			System.out.println("User Added Successfully");
 			c = new Customer();
