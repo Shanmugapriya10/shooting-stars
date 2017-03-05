@@ -1,5 +1,6 @@
 package com.dream.Funtoyz_backend.config;
 
+
 import java.util.Properties;
 
 import javax.sql.DataSource;
@@ -14,21 +15,10 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.dream.Funtoyz_backend.Model.Cart;
-import com.dream.Funtoyz_backend.Model.CartItem;
-import com.dream.Funtoyz_backend.Model.InUsers;
-import com.dream.Funtoyz_backend.Model.Product;
-import com.dream.Funtoyz_backend.Model.UserOrder;
-import com.dream.Funtoyz_backend.Service.CartItemService;
-import com.dream.Funtoyz_backend.Service.CartItemServiceImpl;
-import com.dream.Funtoyz_backend.Service.CartService;
-import com.dream.Funtoyz_backend.Service.CartServiceImpl;
-import com.dream.Funtoyz_backend.Service.ProductService;
-import com.dream.Funtoyz_backend.Service.ProductServiceImpl;
-import com.dream.Funtoyz_backend.Service.UserOrderService;
-import com.dream.Funtoyz_backend.Service.UserOrderServiceImpl;
-import com.dream.Funtoyz_backend.Service.UserService;
-import com.dream.Funtoyz_backend.Service.UserServiceImpl;
+import com.dream.Funtoyz_backend.DAO.CustomerDAO;
+import com.dream.Funtoyz_backend.DAO.CustomerDAOImpl;
+import com.dream.Funtoyz_backend.Model.Customer;
+
 
 @Configuration
 @ComponentScan("com.dream.Funtoyz_backend")
@@ -61,11 +51,7 @@ public class ApplicationContextConfig {
     public SessionFactory getSessionFactory(DataSource dataSource) {
     	LocalSessionFactoryBuilder sessionBuilder = new LocalSessionFactoryBuilder(dataSource);
     	sessionBuilder.addProperties(getHibernateProperties());
-    	sessionBuilder.addAnnotatedClass(Cart.class);
-    	sessionBuilder.addAnnotatedClass(CartItem.class);
-    	sessionBuilder.addAnnotatedClass(InUsers.class);
-    	sessionBuilder.addAnnotatedClass(Product.class);
-    	sessionBuilder.addAnnotatedClass(UserOrder.class);
+    	sessionBuilder.addAnnotatedClass(Customer.class);
       	return sessionBuilder.buildSessionFactory();
     }
     
@@ -77,32 +63,11 @@ public class ApplicationContextConfig {
 	}
 	
 	@Autowired
-	@Bean(name="userService")
-	public UserService getUserService(){
-		return new UserServiceImpl();
+	@Bean(name="DAO")
+	public CustomerDAO getUserService(){
+		return new CustomerDAOImpl();
 	}
 
-	@Autowired
-	@Bean(name="cartItemService")
-	public CartItemService getCartItemService(){
-		return new CartItemServiceImpl();
-	}
 	
-	@Autowired
-	@Bean(name="cartService")
-	public CartService getCartService(){
-		return new CartServiceImpl();
 	}
-	
-	@Autowired
-	@Bean(name="productService")
-	public ProductService getProductService(){
-		return new ProductServiceImpl();
-	}
-	
-	@Autowired
-	@Bean(name="userOrderService")
-	public UserOrderService getUserOrderService(){
-		return new UserOrderServiceImpl();
-	}
-}
+

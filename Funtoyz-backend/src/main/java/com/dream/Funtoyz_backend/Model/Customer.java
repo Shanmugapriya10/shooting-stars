@@ -32,4 +32,9 @@ public class Customer {
     public void setCid(String cid)  {
     	this.cid=cid;
     }
+	
+	public void setEnabled(boolean b) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -7,34 +7,33 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-
 import com.dream.Funtoyz_backend.Model.Customer;
+
+
 
 @Repository
 @Transactional
-public class CustomerDAOImpl implements CustomerDAO {
+public   class CustomerDAOImpl implements CustomerDAO {
 
 	@Autowired
+	
 	SessionFactory sf;
 	
 	Session s;
 	Transaction t;
 	
-	public boolean addCustomer(Customer c) {
+	public boolean addUser(Customer c) {
 
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
 			c.setEnabled(true);
-			c.setRole("ROLE_Customer");
+			c.setCname("ROLE_USER");
 			
-			Cart cart = new Cart();
 			
-			cart.setCustomer(c);
-			c.setCart(cart);
 			
 			s.save(c);
-			s.save(cart);
+			
 			t.commit();
 			return true;
 		}
@@ -45,12 +44,12 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public boolean delCustomer(int id) {
+	public boolean delUser(int uid) {
 		Customer c;
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
-			c = (Customer)s.load(Customer.class, id);
+			c = (Customer)s.load(Customer.class, uid);
 			s.delete(c);
 			t.commit();
 			return true;
@@ -61,15 +60,15 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public boolean updCustomer(Customer c) {
-		Customer c1;
+	public boolean updUser(Customer c) {
+		Customer u1;
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
-			c1 = (Customer)s.load(Customer.class, c.getid());
-			c1.setCname(c.getCname());
-			c1.setCpass(c.getCpass());
-			s.saveOrUpdate(c1);
+			u1 = (Customer)s.load(Customer.class, c.getCid());
+			u1.setCname(c.getCname());
+			u1.setCpass(c.getCpass());
+			s.saveOrUpdate(u1);
 			t.commit();
 			return true;
 		}
@@ -79,14 +78,14 @@ public class CustomerDAOImpl implements CustomerDAO {
 		}
 	}
 
-	public Customer getCustomerById(int id) {
-		Customer c;
+	public Customer getUserById(int uid) {
+		Customer u;
 		try{
 			s = sf.openSession();
 			t = s.beginTransaction();
-			c = (Customer)s.load(Customer.class, id);
+			u = (Customer)s.load(Customer.class, uid);
 			t.commit();
-			return c;
+			return u;
 		}
 		catch(Exception e){
 			System.out.println(e);
@@ -95,7 +94,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 	}
 
 	@SuppressWarnings("unchecked")
-	public List<Customer> getAllCustomers() {
+	public List<Customer> getAllUsers() {
 		List<Customer> l;
 		try{
 			s = sf.openSession();
@@ -108,6 +107,36 @@ public class CustomerDAOImpl implements CustomerDAO {
 			System.out.println(e);
 			return null;
 		}
+	}
+
+	@Override
+	public boolean createCustomer(Customer c) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean deleteCustomer(String name) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean updateCustomer(Customer c) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Customer getCustomerByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
