@@ -8,6 +8,6 @@ public interface CustomerDAO {
      boolean addCustomer(Customer c);
      boolean delCustomer(int cid);
      boolean updCustomer(Customer c);
-     Customer getCustomerByName(int cid);
+     Customer getCustomerById(int cid);
      List<Customer> getAllCustomers();
-}
+	}
