@@ -26,9 +26,7 @@ body {
     
     }
  
-
  p{
-
 }
     /* Remove the navbar's default rounded borders and increase the bottom margin */ 
     
@@ -37,8 +35,6 @@ body {
       border-radius: 0;
     }
    
-
-
 .login {
   position: relative;
   margin: 0 auto;
@@ -47,7 +43,6 @@ body {
   background: white;
   border-radius: 3px;
   @include box-shadow(0 0 200px rgba(white, .5), 0 1px 2px rgba(black, .3));
-
   &:before {
     content: '';
     position: absolute;
@@ -56,7 +51,6 @@ body {
     background: rgba(black, .08);
     border-radius: 4px;
   }
-
   h5 {
     margin: -20px -20px 21px;
     line-height: 40px;
@@ -71,22 +65,17 @@ body {
     @include linear-gradient(top, whiteffd, #eef2f5);
     @include box-shadow(0 1px #f5f5f5);
   }
-
   p { margin: 20px 0 0; }
   p:first-child { margin-top: 0; }
-
   input[type=text], input[type=password] { width: 278px; }
-
   p.remember_me {
     float: left;
     line-height: 31px;
-
     label {
       font-size: 12px;
       color: #777;
       cursor: pointer;
     }
-
     input {
       position: relative;
       bottom: 1px;
@@ -94,40 +83,32 @@ body {
       vertical-align: middle;
     }
   }
-
   p.submit { text-align: right; }
 }
-
 .login-help {
   margin: 20px 0;
   font-size: 11px;
   color: white;
   text-align: center;
   text-shadow: 0 1px #2a85a1;
-
   a {
     color: #cce7fa;
     text-decoration: none;
-
     &:hover { text-decoration: underline; }
   }
 }
-
 :-moz-placeholder {
   color: #c9c9c9 !important;
   font-size: 13px;
 }
-
 ::-webkit-input-placeholder {
   color: #ccc;
   font-size: 13px;
 }
-
 input {
   font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
   font-size: 14px;
 }
-
 input[type=text], input[type=password] {
   margin: 5px;
   padding: 0 10px;
@@ -141,14 +122,12 @@ input[type=text], input[type=password] {
   outline: 5px solid #eff4f7;
   -moz-outline-radius: 3px; // Can we get this on WebKit please?
   @include box-shadow(inset 0 1px 3px rgba(black, .12));
-
   &:focus {
     border-color: #7dc9e2;
     outline-color: #dceefc;
     outline-offset: 0; // WebKit sets this to -1 by default
   }
 }
-
 input[type=submit] {
   padding: 0 18px;
   height: 29px;
@@ -164,14 +143,12 @@ input[type=submit] {
   @include box-sizing(content-box); // Firefox sets this to border-box by default
   @include linear-gradient(top, #edf5f8, #cde5ef);
   @include box-shadow(inset 0 1px white, 0 1px 2px rgba(black, .15));
-
   &:active {
     background: #cde5ef;
     border-color: #9eb9c2 #b3c0c8 #b4ccce;
     @include box-shadow(inset 0 0 3px rgba(black, .2));
   }
 }
-
 .lt-ie9 {
   input[type=text], input[type=password] { line-height: 34px; }
 }
@@ -208,14 +185,14 @@ padding:0px;">- A Journey to the Toy World</p>
       <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
       <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       </li>
-         <li class="active w3-hover-orange"><a href="#Home">Home</a></li>
-         <li><a href="#About Us">About Us</a></li>
-        <li><a href="#Contact us">Contact Us</a></li>
+         <li ><a href="">Home</a></li>
+         <li><a href="">About Us</a></li>
+        <li><a href="pr">Contact Us</a></li>
        <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+        <a class="dropdown-toggle" data-toggle="dropdown" href="pr">Products
         <span class="caret"></span></a>
         <ul class="dropdown-menu w3-green w3-hover-black">
-          <li><a href="#">Action Figure Toys</a></li>
+          <li><a href="pr">Action Figure Toys</a></li>
           <li><a href="#">Electronic Toys</a></li>
           <li><a href="#">Wooden toys</a></li>
           <li><a href="#">Construction-Set Toys</a></li>
@@ -225,8 +202,8 @@ padding:0px;">- A Journey to the Toy World</p>
       </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li><a href="#Register"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-       <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       <li><a href="rg"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+       <li class="active w3-hover-orange"><a href="ls"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
       </ul>
     </div>
   </div>
@@ -239,7 +216,7 @@ padding:0px;">- A Journey to the Toy World</p>
   <section class="container">
     <div class="login  w3-hover-sand " >
       <h5 align="center">Login Form</h5>
-      <form method="post" action="home.html">
+      <form method="post" action="index.html">
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
          <div class="w3-rest"><input type="text" name="login" value="" placeholder="Username or Email"></div>
         <p><div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-lock"></i></div>
@@ -260,7 +237,6 @@ padding:0px;">- A Journey to the Toy World</p>
   </section>
 
 <script>
-
 function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
@@ -269,7 +245,6 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
 </script>
   
 </body>

@@ -42,14 +42,14 @@ padding:0px;"><i>Funtoyz</i></h1>
       <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
       <a class="w3-padding-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       </li>
-         <li class="active w3-hover-orange"><a href="#Home">Home</a></li>
+         <li ><a href="">Home</a></li>
          <li><a href="#About Us">About Us</a></li>
         <li><a href="#Contact us">Contact Us</a></li>
-       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+       <li class="dropdown active w3-hover-orange">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="pr">Products
         <span class="caret"></span></a>
         <ul class="dropdown-menu w3-green w3-hover-black">
-          <li><a href="#">Action Figure Toys</a></li>
+          <li><a href="pr">Action Figure Toys</a></li>
           <li><a href="#">Electronic Toys</a></li>
           <li><a href="#">Wooden toys</a></li>
           <li><a href="#">Construction-Set Toys</a></li>
@@ -59,21 +59,13 @@ padding:0px;"><i>Funtoyz</i></h1>
       </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-       <li><a href="#Register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-       <li><a href="#Login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+       <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Add cart</a></li>
+       <li><a href=""><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <ul class="w3-navbar w3-left-align w3-black">
-    <li><a class="w3-padding-large" href="#About Us">About Us</a></li>
-    <li><a class="w3-padding-large" href="#Contact us">Contact us</a></li>
-    <li><a class="w3-padding-large" href="#Register">Sign Up</a></li>
-    <li><a class="w3-padding-large" href="#Login">Login</a></li>
-  </ul>
-</div>
 
 <div class="w3-section w3-card-8 w3-hover-sand"> 
 <!-- Sidenav/menu -->
@@ -132,7 +124,7 @@ padding:0px;"><i>Funtoyz</i></h1>
 
   <!-- Image header -->
   <div class="w3-display-container w3-container">
-    <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\star_wars_banner_1176x524.jpg" alt="ACTION FIGURE TOYS" style="width:100%">
+    <img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\star_wars_banner_1176x524.jpg" alt="ACTION FIGURE TOYS" style="width:100%">
     <div class="w3-display-bottomleft w3-padding-xxlarge w3-text-white">
       <h1 class=" w3-hide-small">New arrivals</h1>
        <h1 class="w3-hide-small">Collection 2017</h1>
@@ -149,7 +141,7 @@ padding:0px;"><i>Funtoyz</i></h1>
     <div class="w3-col l3 s6">
       <div class="w3-container">
         <img src="/w3images/jeans1.jpg" style="width:100%">
-        <p>Ripped Skinny Jeans<br><b>$24.99</b></p>
+        <p><br><b>$24.99</b></p>
       </div>
       <div class="w3-container">
         <img src="/w3images/jeans2.jpg" style="width:100%">
@@ -257,14 +249,13 @@ padding:0px;"><i>Funtoyz</i></h1>
     </div>
   </footer>
 
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></div>
 
   <!-- End page content -->
 </div>
 
 
 <script>
-
 function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
@@ -282,11 +273,8 @@ function myAccFunc() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
 // Click on the "Jeans" link on page load to open the accordion for demo purposes
 document.getElementById("myBtn").click();
-
-
 // Script to open and close sidenav
 function w3_open() {
     document.getElementById("mySidenav").style.display = "block";

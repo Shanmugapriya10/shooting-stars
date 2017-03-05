@@ -28,13 +28,13 @@
         </div>
         <div class="collapse navbar-collapse navbar-menubuilder">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a>
+                <li><a href="">Home</a>
                 </li>
                 <li><a href="#">Products</a>
                 </li>
                 <li><a href="#">Contact Us</a>
                 </li>
-                <li><a href="#">Login</a>
+                <li><a href="ls">Login</a>
                 </li>
             </ul>
         </div>
@@ -44,9 +44,9 @@
         <div class="container">
            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
            <div id="banner">
-             <h1>Bootstrap <strong>Registration Form</strong> for .net developers</h1>
+             <h1>Welcome to <strong>Funtoyz</strong> </h1>
 
-            <h5><strong>aspxtemplates.com</strong></h5>
+            <h5><strong>A Journey to the Toy World</strong></h5>
            
            </div>
           
@@ -133,7 +133,6 @@
         <script src="js/jquery.backstretch.js" type="text/javascript"></script>
         <script type="text/javascript">
             'use strict';
-
             /* ========================== */
             /* ::::::: Backstrech ::::::: */
             /* ========================== */
@@ -145,7 +144,6 @@
             "img/34.jpg",
             "img/images.jpg"
         ],
-
         {
             duration: 4500,
             fade: 1500

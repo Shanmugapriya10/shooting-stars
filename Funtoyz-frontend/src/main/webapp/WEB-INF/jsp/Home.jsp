@@ -71,12 +71,12 @@ padding:0px;"><i>Funtoyz</i></h1>
       </li>
          <li class="active w3-hover-orange"><a href="">Home</a></li>
          <li><a href="#About Us">About Us</a></li>
-        <li><a href="#Contact us">Contact Us</a></li>
+        <li><a href="pr">Contact Us</a></li>
        <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+        <a class="dropdown-toggle" data-toggle="dropdown" href="pr">Products
         <span class="caret"></span></a>
         <ul class="dropdown-menu w3-green w3-hover-black">
-          <li><a href="#">Action Figure Toys</a></li>
+          <li><a href="pr">Action Figure Toys</a></li>
           <li><a href="#">Electronic Toys</a></li>
           <li><a href="#">Wooden toys</a></li>
           <li><a href="#">Construction-Set Toys</a></li>
@@ -108,7 +108,7 @@ padding:0px;"><i>Funtoyz</i></h1>
     <div class="carousel-inner w3-hover-sand " role="listbox">
 
       <div class="item active">
-        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\lego-angry-birds-movie-characters-home-banner.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
+        <img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\lego-angry-birds-movie-characters-home-banner.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
           <h3 style="color:orange">Hi...Everyone..</h3>
           <p>Welcome To The Toy World....</p>
@@ -116,7 +116,7 @@ padding:0px;"><i>Funtoyz</i></h1>
       </div>
 
       <div class="item">
-        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\star_wars_banner_1176x524.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
+        <img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\star_wars_banner_1176x524.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
           <h3></h3>
           <p></p>
@@ -124,7 +124,7 @@ padding:0px;"><i>Funtoyz</i></h1>
       </div>
     
       <div class="item">
-        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\maxresdefault.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
+        <img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\maxresdefault.jpg" alt="_blank"  style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
           <h3></h3>
           <p>Come On...Let's play on the Glider...</p>
@@ -132,7 +132,7 @@ padding:0px;"><i>Funtoyz</i></h1>
       </div>
 
       <div class="item">
-        <img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\toys-slider.jpg" alt="_blank" style="width:100%;min-height:125px;max-height:450px;">
+        <img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\toys-slider.jpg" alt="_blank" style="width:100%;min-height:125px;max-height:450px;">
         <div class="carousel-caption">
           <h3 style="color:green">Why Are You Waiting?</h3>
           <p>Come  And Collect Me....Fast..</p>
@@ -156,7 +156,7 @@ padding:0px;"><i>Funtoyz</i></h1>
  <br/>
  
     
- <img class="w3-card-8" src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\deal.jpg" width="100%" >
+ <img class="w3-card-8" src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\deal.jpg" width="100%" >
  <br/>
  <br/>
  <br/>
@@ -170,21 +170,21 @@ padding:0px;"><i>Funtoyz</i></h1>
     <div class="col-sm-4 w3-card-8 w3-hover-orange">
       <div class="panel panel-primary">
         <div class="panel-heading" style="font-family:Jokerman;">MONDAY OFFER!</div>
-        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\iron man.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
+        <div class="panel-body"><img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\iron man.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
         <div class="panel-footer w3-hover-sand">Buy any action figure toy and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4  w3-card-8 w3-hover-orange"> 
       <div class="panel panel-danger">
         <div class="panel-heading" style="font-family:Jokerman;">TUESDAY OFFER!</div>
-        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Cy-Talking-Tom-Cat-Touch-SDL135429999-1-6029c.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
+        <div class="panel-body"><img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\Cy-Talking-Tom-Cat-Touch-SDL135429999-1-6029c.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
         <div class="panel-footer w3-hover-sand">Buy any electronic toy and get a gift card </div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-orange"> 
       <div class="panel panel-success">
         <div class="panel-heading" style="font-family:Jokerman;">WEDNESDAY OFFER!</div>
-        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Montez-Magnetic-Jigsaw-Puzzle-Two-SDL014952339-1-c69cd.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
+        <div class="panel-body"><img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\Montez-Magnetic-Jigsaw-Puzzle-Two-SDL014952339-1-c69cd.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:350px;" alt="Image"></div>
         <div class="panel-footer w3-hover-sand">Buy any wooden toy and get a gift card</div>
       </div>
     </div>
@@ -196,21 +196,21 @@ padding:0px;"><i>Funtoyz</i></h1>
     <div class="col-sm-4 w3-card-8 w3-hover-green">
       <div class="panel panel-warning">
         <div class="panel-heading" style="font-family:Jokerman;">THURSDAY OFFER!</div>
-        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Peacock-Senior-Architect-2133-Construction-SDL432519311-1-d2c81.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:300px;" alt="Image"></div>
+        <div class="panel-body"><img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\Peacock-Senior-Architect-2133-Construction-SDL432519311-1-d2c81.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:300px;" alt="Image"></div>
         <div class="panel-footer w3-hover-sand">Buy any construction toy set and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-green"> 
       <div class="panel panel-info">
         <div class="panel-heading" style="font-family:Jokerman;">FRIDAY OFFER!</div>
-        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Prasid-25-Key-Music-Learning-SDL547313554-1-6bee0.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:325px;" alt="Image"></div>
+        <div class="panel-body"><img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\Prasid-25-Key-Music-Learning-SDL547313554-1-6bee0.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:325px;" alt="Image"></div>
         <div class="panel-footer w3-hover-sand">Buy any musical toy and get a gift card</div>
       </div>
     </div>
     <div class="col-sm-4 w3-card-8 w3-hover-green"> 
       <div class="panel panel-primary">
         <div class="panel-heading" style="font-family:Jokerman;">SATURDAY OFFER!</div>
-        <div class="panel-body"><img src="C:\Users\Admin\Desktop\H2\Funtoyz\src\main\webapp\views\images\home  page images\Monopoly-Electronic-Banking-SDL045553286-1-b23bc.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:300px;" alt="Image"></div>
+        <div class="panel-body"><img src="C:\Users\Administrator.MR1-01\workspace\Funtoyz-frontend\src\main\webapp\images\Monopoly-Electronic-Banking-SDL045553286-1-b23bc.jpg" class="img-responsive" style="width:100%;min-height:125px;max-height:300px;" alt="Image"></div>
         <div class="panel-footer w3-hover-sand">Buy any board games set and get a gift card</div>
       </div>
     </div>
@@ -247,7 +247,6 @@ At Funtoyz, we have decided to have the best product for every age.</i></h4>
 </footer>
 
 <script>
-
 function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
@@ -256,7 +255,6 @@ function myFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
-
 </script>
 </body>
 </html>
